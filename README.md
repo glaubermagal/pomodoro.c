@@ -1,5 +1,7 @@
 # Pomodoro.c
 
+![Pomodoro GIF](demo.gif)
+
 A simple Pomodoro timer written in C to help you stay focused and productive. This program runs in the console and follows the traditional Pomodoro technique of 25 minutes of focused work followed by a 5-minute break.
 
 ## Table of Contents
@@ -8,6 +10,9 @@ A simple Pomodoro timer written in C to help you stay focused and productive. Th
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Build](#build)
+- [Install](#install)
+- [Uninstall](#uninstall)
+- [Clean](#clean)
 - [Platform Support](#platform-support)
 - [Contributing](#contributing)
 - [License](#license)
@@ -61,6 +66,36 @@ make
 ```
 
 This will compile the program and create the executable `pomodoro`.
+
+## Install
+
+To install Pomodoro.c system-wide, run the following command:
+
+```bash
+sudo make install
+```
+
+This will copy the executable to `/usr/local/bin` and make it executable for all users.
+
+## Uninstall
+
+To uninstall Pomodoro.c, run the following command:
+
+```bash
+sudo make uninstall
+```
+
+This will remove the executable from `/usr/local/bin`.
+
+## Clean
+
+To clean up the compiled files, run:
+
+```bash
+make clean
+```
+
+This will remove the executable `pomodoro`.
 
 ## Platform Support
 
